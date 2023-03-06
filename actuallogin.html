@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <script src="validations.js"></script>
+    <!-- <script>
+        function validate(){
+    var pd=document.getElementById("pwd").value;
+    var cpd=document.getElementById("cpwd").value;
+    if(pd==cpd)
+        console.log("yeah");
+    
+    else
+        console.log("nope");
+    
+}
+    </script> -->
+</head>
+
+<body>
+    <h2>Login Form</h2>
+    <form action="" onsubmit="validate()" method="post">
+        <fieldset>
+            <label>UserName:</label>
+            <input type="text" id="uname" ><br><br>
+            <label>Password:</label>
+            <input type="text" id="pwd"><br><br>
+            <label>Confirm Password</label>
+            <input type="text" id="cpwd" ><br><br>
+            <button type="submit">SIGN-IN</button>
+            <button type="reset">CANCEL</button>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
